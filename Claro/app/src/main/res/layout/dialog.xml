@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1" android:layout_width="fill_parent"
+        android:padding="10dip" android:layout_height="100dip">
+        <TextView android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si no solucionaste el problema y quieres agendar una visita, haz click en siguiente"
+            android:textSize="18sp"
+            android:textAlignment="viewStart" />
+    </ScrollView>
+</RelativeLayout>

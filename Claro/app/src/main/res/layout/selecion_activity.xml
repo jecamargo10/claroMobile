@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Nombre: Juan Perez"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:textAlignment="textStart"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textIsSelectable="false"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Cuenta: 98673338"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:textAlignment="viewStart"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textIsSelectable="false"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="false" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+             />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/leadsNames"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+
+            android:layout_below="@+id/editText2" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Decodificador: 010303466789"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:textAlignment="viewStart"
+            android:textIsSelectable="false"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_below="@+id/editText3"
+            android:background="@android:color/transparent"
+            android:layout_alignParentStart="true"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_above="@+id/leadsNames" />
+
+
+    </RelativeLayout>
+</LinearLayout>
