@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Claro.iml" filepath="$PROJECT_DIR$/Claro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/IDMMobileSDK/IDMMobileSDK.iml" filepath="$PROJECT_DIR$/src/IDMMobileSDK/IDMMobileSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

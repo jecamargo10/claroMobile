@@ -23,12 +23,22 @@
 
     <Button
         android:text=" "
-        android:id="@+id/button8"
+        android:id="@+id/button2"
         android:elevation="4dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@android:color/transparent"
         android:layout_alignBottom="@+id/imageView4"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text=" "
+        android:id="@+id/button8"
+        android:elevation="4dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

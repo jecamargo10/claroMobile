@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "602794928434",
+    "firebase_url": "https://claro-159220.firebaseio.com",
+    "project_id": "claro-159220",
+    "storage_bucket": "claro-159220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602794928434:android:ee1c66b384a89bd3",
+        "android_client_info": {
+          "package_name": "com.example.javie.claro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602794928434-h2vie7fgedr43cj12s5odg7ppans295g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.javie.claro",
+            "certificate_hash": "852C02114E7C1CD29DB05D8FA89796FD0592F048"
+          }
+        },
+        {
+          "client_id": "602794928434-vtmtoigb37r1kun2b5it1pj4bjtak2vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSWjpJJbEmIfv1rZqRJaa30I4KzHAAHAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602794928434-vtmtoigb37r1kun2b5it1pj4bjtak2vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

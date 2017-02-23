@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':IDMMobileSDK'
+project(':IDMMobileSDK').projectDir = new File('src/IDMMobileSDK')

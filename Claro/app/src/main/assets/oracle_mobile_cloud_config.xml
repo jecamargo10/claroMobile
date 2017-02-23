@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mobileBackends>
+
+    <!--Here are the settings for a single mobileBackend.
+    For those apps with multiple mobileBackends, you might need to add
+    settings one by one below-->
+
+    <mobileBackend>
+        <!--Add the name and version of your mobileBackend as values here-->
+        <mbeName>QWERqwer1234_1234</mbeName>
+        <mbeVersion>1.0</mbeVersion>
+
+        <!--Set to true if the current mobileBackend is the default one-->
+        <default>true</default>
+
+        <!--The base URL goes here-->
+        <baseUrl>https://mobile-gse00003002.mobileenv.us2.oraclecloud.com:443</baseUrl>
+
+        <!--Set it true if you want to get analytics information from UI-->
+        <enableAnalytics>true</enableAnalytics>
+
+        <!--Set it true if you want to get logging information in Logger-->
+        <enableLogger>true</enableLogger>
+
+        <authorization>
+            <authenticationType>oauth</authenticationType>
+            <oAuthTokenEndPoint>https://gse00003002.identity.us.oraclecloud.com/oam/oauth2/tokens</oAuthTokenEndPoint>
+            <oAuthClientId>ecfd74b2-d875-493f-a366-5a531ccf467f</oAuthClientId>
+            <oAuthClientSecret>mMPoXVGswCWpZCpxnTI0</oAuthClientSecret>
+        </authorization>
+    </mobileBackend>
+
+</mobileBackends>
